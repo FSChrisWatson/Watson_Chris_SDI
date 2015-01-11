@@ -117,6 +117,50 @@ var phrase2 = "I don't know! \nYou never Know!";
 console.log(phrase2);
 
 
+//Boolean
+//kind of light switch - either on or off
+//true or false - Not "true" or "false"
+
+var yes = true;
+
+var nope = false;
+
+//This is not a boolean
+var wrong = "true";
+
+//Order of Operations
+// PEMDAS - Please Excuse My Dear Aunt Sally
+// Parenthesis, exponents, multiplication, division, addition, subtraction
+
+//Find quiz averages
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
+
+//Average - add them up and divide how many they are
+var average = (quiz1 + quiz2 + quiz3) /3;
+console.log(average);
+
+//Do not over use parenthesis
+// var perimeter = (length*2) + (width *2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
