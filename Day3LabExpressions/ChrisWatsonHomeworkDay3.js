@@ -17,7 +17,7 @@ console.log("This is the console.");
 // Use the keyword of var
 
 var numberOfSlicesPerPizza; // Declaration of variable
-numberOfSlicesPerPizza = 8; // Definition of variable
+numberOfSlicesPerPizza = 9; // Definition of variable
 console.log(numberOfSlicesPerPizza);
 
 //Number of people at the party
@@ -35,3 +35,11 @@ console.log(pizzasOrdered);
 var numberOfSlicesPerPersons = numberOfSlicesPerPizza * pizzasOrdered / peopleAtParty;
 console.log(numberOfSlicesPerPersons);
 
+
+//Sparkey gets remainder of slices
+// Modulo - %
+// Gives remainder
+var remainder = 19%18.125;
+console.log(remainder);
+
+//5 weekly grocery bills.
