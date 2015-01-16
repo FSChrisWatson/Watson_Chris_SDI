@@ -89,3 +89,6 @@ Code to run if condition2 is true
 } else {code to run if condition1 and condition2 is false
 
  */
+
+//&& T&&T=T T&&F=F F&&T=F F&&F=F
+//II TIIT=T TIIF=F FIIT=F FIIF=F
