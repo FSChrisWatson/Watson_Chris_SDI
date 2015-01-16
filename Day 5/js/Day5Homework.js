@@ -43,6 +43,5 @@ if(username == "Chris" && password == "FullSail")
 
 }
 
-
-
+//If the psi on the front is 10 and the rear is 20, then the car is up to spec.
 
