@@ -28,7 +28,7 @@ Code to run if the condition is false
 }
  */
 
-if(oldEnough){}
+if(oldEnough){
 //Code inside of {} will run if the test is true
 //This code will be skipped if test is false
 console.log("You can ride the coaster!");
@@ -39,19 +39,19 @@ console.log("What came after the if then statement");
 //Relationship Expressions
 
 //If the kid is over 48" then he can run
-var(kidHeight)= 47;
+var kidHeight= 47;
 
 //Create variable for kid height
-var(minHeight)= 48;
+var minHeight= 48;
 
 //Create a variable for a shoe lift
-var(shoeLift)= 2;
+var shoeLift= 2;
 //Is the child tall enough with shoe lift?
 
-if(kidHeight + shoeLift > midHeight){
+if(kidHeight + shoeLift > minHeight){
 console.log("You are tall enough to ride!");
 } else{
-    //This conde will run if the test is false!
+    //This code will run if the test is false!
     console.log("Sorry you are to short!");
 
 
