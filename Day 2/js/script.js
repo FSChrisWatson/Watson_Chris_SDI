@@ -17,7 +17,7 @@ so anything in between the stars and slashes is ignored by the computer
  */
 
 //Alert - gives the user information but returns NOTHING
-alert("Welcome to Compete Elite");
+//alert("Welcome to Compete Elite");
 
 //console logging information
 console.log("This is the console. Gotta get use to it!");
@@ -34,3 +34,61 @@ var a = 2;
 
 //Send variable to console so we can see it.
 console.log(a);
+
+//lets change the value of a variable
+a = 6;
+console.log(a);
+
+//Add 3 to the current value of a so write
+a = a + 3;
+//Then in order to check it on the browser use console.log
+console.log(a);
+
+//Create another variable
+var b;
+b = a + 3;
+
+console.log(a);
+console.log(b);
+
+
+//Simple Math
+//Find your Age
+
+//Create variable for year born
+var yearBorn = 1989;
+var age = 2015 - yearBorn;
+console.log(age);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
