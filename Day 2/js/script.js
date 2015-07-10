@@ -49,7 +49,7 @@ var b;
 b = a + 3;
 
 console.log(a);
-console.log(b);
+console.log("The value of b is " + b);
 
 
 //Simple Math
@@ -150,15 +150,28 @@ var notCorrect = false;
 
 
 
+//Simple  Math Problem
+//Find the perimeter of a rectangle
+var side1 = 7;
+var length1 = 6;
+var perimeter = (side1 * 2) + (length1 * 2);
+console.log(perimeter);
 
 
 
+//Concatenation - Combining text
+
+var firstName = "kermit";
+var lastName = "The Frog";
+var fullName = firstName + " " + lastName;
+console.log(fullName + " is the color " + kermit);
 
 
-
-
-
-
+//Anytime you use + with text it changes everything to text
+var d = "6";
+var e = "7";
+var combined = d + e;
+console.log(combined);
 
 
 
