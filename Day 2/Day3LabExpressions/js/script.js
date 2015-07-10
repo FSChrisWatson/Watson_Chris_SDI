@@ -27,7 +27,10 @@ var slicesPerPerson = slicesPerPizza * pizzaOrdered / numberOfPeople;
 console.log("Each person ate " +  slicesPerPerson + " pizzas at the party.");
 
 //Use Modulo to find the remainder of pizza sparky gets and log into console.
-var sparkysSlices = 18 % 16;
+//Sparky gets remainder of slices
+// Modulo - %
+// Gives remainder
+var sparkysSlices = 18 % numberOfPeople;
 console.log("Sparky got " + sparkysSlices + " slices of pizza ");
 
 //Add week 1 - 5 to get the total
@@ -49,15 +52,16 @@ console.log("You have spent a total of " + totalSpent + " on groceries over 5 we
 //TO find the discount subtract the original price from the discount.
 //Multiply the discounted price with the .07 percent tax and that will give you the price with taxes
 
-originalPrice = 4.56;
-discount = .25;
+var originalPrice = 4.56;
+var discount = 25;
+var discDecimal = discount / 100;
 var tax = .07;
 
 var priceWithTax = originalPrice - discount * tax;
-var priceNoTax = originalPrice - discount;
+var priceNoTax = originalPrice - (originalPrice * discDecimal);
 
 console.log(priceWithTax);
 console.log(priceNoTax);
 
-//Result Format: Your x was orignially $X, but after a x% discount, it is now $X without tax, and $x with tax
-console.log("Your DialSoap was originally $" + originalPrice + ", but after a $" + discount + ", discount it is now $" + priceNoTax + " , without tax and $" + priceWithTax + " with tax.");
+//Result Format: Your x was originally $X, but after a x% discount, it is now $X without tax, and $x with tax
+console.log("Your DialSoap was originally $" + originalPrice + ", but after a " + discount + "% discount it is now $" + priceNoTax + " , without tax and $" + priceWithTax + " with tax.");
