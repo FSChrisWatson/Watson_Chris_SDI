@@ -114,6 +114,44 @@ tester *6; // tester = tester * 6;
 console.log(tester);
 
 
+//orders of Operation
+//PEMDAS - Please excuse my dear aunt sally
+// parenthesis, exponents, multiply, divide, add, subtract
+
+//Find quiz averages
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
+
+//Find average by adding all three and divide by the total
+
+var average = (quiz1 + quiz2 + quiz3) /3;
+console.log(average);
+
+//String - text of coding
+//Must have matching " or '
+//Needed to separate variable names from standard text
+
+var kermit = "light green";
+var frogName = "kermit";
+
+console.log(frogName);
+
+
+
+//BOOLEANS - True or False Statements
+//Light switches of programming
+
+var yes = true;
+var nope = "false";
+var notCorrect = false;
+
+//A string of "false" is NOT equal to a boolean of false
+
+
+
+
+
 
 
 
