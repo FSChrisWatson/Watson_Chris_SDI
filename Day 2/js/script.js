@@ -61,17 +61,57 @@ var age = 2015 - yearBorn;
 console.log(age);
 
 
+//COMMENT OUT EVERYTHING BELLOW
+
+//MATH!!
+// + addition,subtraction-,mutiplication*,division/
+
+//Find the area of a triangle
+var width = 4;
+var height = 5;
+
+var areaTriangle = width * height / 2;
+console.log (areaTriangle);
+
+//Modulo is the %
+//Doesn't give you a percentage but gives you the remainder
+//Example
+var remainder = 32%10;
+console.log(remainder);
+
+//So the remainder will be 2 in the console.log/browser
+
+//Find out if even or odd
+//Modulo by 2
+var evenOrOdd = 67%2;
+console.log(evenOrOdd);
+
+//If you put something even in then you will have a modulo of 0
+//0 means even
+//1 means odd
 
 
+//Assignment operations
 
+/*
+= Assignment Operation - "is"
+++ adds one to the current value of the variable
+-- subtracts one from the current value of the variable
++= adds the value after it to the current value
+-= Subtract Assignment Operator - subtracts the value after it
+from the current value
+/= Division Operator - divides by the current value
+*= Multiplication Operator - multiplies by the current value
+ */
 
-
-
-
-
-
-
-
+var tester = 5;
+tester ++; // tester = tester +1;
+tester --; // tester = tester -1;
+tester +=3; // tester = tester + 3;
+tester -=6; // tester = tester - 6;
+tester /3; // tester = tester / 3;
+tester *6; // tester = tester * 6;
+console.log(tester);
 
 
 
