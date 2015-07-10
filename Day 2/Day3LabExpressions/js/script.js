@@ -17,10 +17,47 @@
 
 
 var slicesPerPizza = 9;
-var numberOfPeople = 15;
-var pizzaOrdered = 3;
+var numberOfPeople = 16;
+var pizzaOrdered = 2;
 
 //slices of pizza * pizza ordered / number of people
-
+//Result variables: Number of slices per person
+//Result Format: Each person ate x slices of pizza at the party.
 var slicesPerPerson = slicesPerPizza * pizzaOrdered / numberOfPeople;
 console.log("Each person ate " +  slicesPerPerson + " pizzas at the party.");
+
+//Use Modulo to find the remainder of pizza sparky gets and log into console.
+var sparkysSlices = 18 % 16;
+console.log("Sparky got " + sparkysSlices + " slices of pizza ");
+
+//Add week 1 - 5 to get the total
+//Divide by 5 to get the average spending
+var week1 = 20;
+var week2 = 25;
+var week3 = 20;
+var week4 = 30;
+var week5 = 30;
+
+var totalSpent = week1 + week2 + week3 + week4 + week5;
+console.log(totalSpent);
+var averageWeeklySpending = totalSpent / 5;
+console.log(averageWeeklySpending);
+
+//Result format: Your X was originally $X discount, it is now $X without tax, and $X with tax.
+console.log("You have spent a total of " + totalSpent + " on groceries over 5 weeks. That is an average of " + averageWeeklySpending + " per week.");
+
+//TO find the discount subtract the original price from the discount.
+//Multiply the discounted price with the .07 percent tax and that will give you the price with taxes
+
+originalPrice = 4.56;
+discount = .25;
+var tax = .07;
+
+var priceWithTax = originalPrice - discount * tax;
+var priceNoTax = originalPrice - discount;
+
+console.log(priceWithTax);
+console.log(priceNoTax);
+
+//Result Format: Your x was orignially $X, but after a x% discount, it is now $X without tax, and $x with tax
+console.log("Your DialSoap was originally $" + originalPrice + ", but after a $" + discount + ", discount it is now $" + priceNoTax + " , without tax and $" + priceWithTax + " with tax.");
