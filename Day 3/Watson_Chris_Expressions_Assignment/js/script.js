@@ -26,3 +26,17 @@ var averageOranges = totalOranges / 3;
 console.log(orangeBins.length);
 console.log("The average number of oranges picked is " + averageOranges);
 
+//_______________________________________________________________
+
+//Calculate the area of a rectangle
+
+//**prompt the user for width
+var width = prompt("Lets calculate the area of a rectangle. Please enter a width:");
+
+//**Prompt the user for a height
+var height = prompt("Please enter a height:");
+
+//**Calculate the area using the user input
+var area = width * height;
+console.log("The area of your rectangle is " + area);
+alert("The area of your rectangle is " + area);
