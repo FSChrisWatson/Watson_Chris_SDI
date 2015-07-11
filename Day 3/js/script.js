@@ -1,3 +1,8 @@
-/**
- * Created by christopherwatson on 7/9/15.
+/*
+Christopher Watson
+ Section 00
+ 7/11/15
+Arrays
  */
+
+//alert("Hope this shit works?");

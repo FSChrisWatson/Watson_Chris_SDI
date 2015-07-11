@@ -5,10 +5,9 @@
  HOMEWORK
  */
 
-//alert("Just wanted to making sure my js file is connected!");
-
+alert("This is a test");
 //console.log - allows programmers to see information
-//console.log ("This is the console.");
+console.log ("This is the console.");
 
 //calculate how much pizza each party goer will get at the party.
 
