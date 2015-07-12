@@ -37,7 +37,7 @@ var jumpShots = [500, 650, 545, 703, 342];
 
 //How many jump shots did I make this week in my new shoes?
 var totalJumpShots = jumpShots[0] + jumpShots[1] + jumpShots[2] + jumpShots[3] + jumpShots[4] + jumpShots[5];
-console.log("I shot jumpers in a pair of my new shoes. I made" + totaljumpShots + " jump shots in a week.");
+console.log("I shot jumpers in a pair of my new shoes. I made" + totalJumpShots + " jump shots in a week.");
 
 //Average number of jump shots made
 var averageJumpShots = totalJumpShots / jumpShots.length;
