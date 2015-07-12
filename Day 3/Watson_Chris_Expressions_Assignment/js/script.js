@@ -10,17 +10,16 @@
 //In order to tell the computer what to do you ask for input using
 // prompt("");
 
-//_______________________________________________________________________
 
 //All prompt() returns text strings!!!
 //THIS IS CALCULATIONS , PROMPTS , AND CASTING
-var shoesCurrent = prompt ("How many shoes do you currently own?");
-var spentOnShoesThisMonth = prompt ("How much do you spend on a pair of shoes?");
-var spentOnShoesThisYear = prompt ("How much do you spend on shoes in a year");
+var jordansOwned = prompt ("How many pairs of Jordans do you own?");
+var jordansPurchasedMonthly = prompt ("How many Jordans do you buy a month?");
+var costOfJordans = prompt ("How much do Jordans cost");
 var monthsInAYear = 12;
-var averageSpentYearly = Number(spentOnShoesThisYear) / Number(monthsInAYear);
-console.log(averageSpentYearly);
-alert("You spend a average of $" + averageSpentYearly + " on pair of shoes");
+var totalYearlyCost = Number(jordansPurchasedMonthly) * Number(costOfJordans) * Number(monthsInAYear);
+console.log(totalYearlyCost);
+alert("In a year you spend $" + totalYearlyCost + " on Jordan sneakers!");
 
 //Add This.. Make sure you use an alert
 //Cast Numbers as Strings
@@ -31,7 +30,7 @@ var lineNumber = 1326;
 
 var phoneNumber = String(areaCode) + String(prefix) + String(lineNumber);
 console.log(phoneNumber);
-//alert("For more information on sneakers contact " + phoneNumber);
+alert("TO SEE MY JORDAN SNEAKER COLLECTION CALL " + phoneNumber);
 
 var jumpShots = [500, 650, 545, 703, 342];
 
@@ -45,8 +44,14 @@ var averageJumpShots = totalJumpShots / jumpShots.length;
 
 //length property of arrays
 console.log(jumpShots.length);
-console.log("The average number of jump shots I took is " + averageJumpShots);
+console.log("I took an average number of " + averageJumpShots + " shots!");
 
 //use multi line comment and tell what calculations you made
 
-
+/* I calculated the amount of Jordans I owned which was 43 pair
+I purchase 2 pair of Jordans a month
+I spend $196.54 on one pair
+In a year I spend 4716.96 on Jordans
+I used an alert and put my contact info for anyone interested in seeing my sneaker collection
+I make 2740 jumps shots a week
+ The average number of jumpshots I took was 548 shot*/
