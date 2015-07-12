@@ -40,3 +40,25 @@ var height = prompt("Please enter a height:");
 var area = width * height;
 console.log("The area of your rectangle is " + area);
 alert("The area of your rectangle is " + area);
+
+
+//_______________________________________________________________________
+
+//*****************//All prompt() returns text strings!!!
+//THIS IS CALCULATIONS , PROMPTS , AND CASTING
+var videoGamesCurrent = prompt ("How many video games do you currently own?");
+var gamesBought = prompt ("How many games did you buy today");
+var totalGames = Number(videoGamesCurrent) + Number(gamesBought);
+console.log(totalGames);
+
+//*****Add This.. Make sure you use an alert
+//If need help contact me
+//Cast NUmbers as Strings
+//String()
+var areaCode = 407;
+var prefix = 555;
+var lineNumber = 1234;
+
+var phoneNumber = String(areaCode) + String(prefix) + String(lineNumber);
+console.log(phoneNumber);
+alert(phoneNumber);
