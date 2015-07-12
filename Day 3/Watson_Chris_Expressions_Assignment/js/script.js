@@ -9,11 +9,10 @@
 
 //In order to tell the computer what to do you ask for input using
 // prompt("");
-//prompt("Name your favorite Sports team.");
 
 //_______________________________________________________________________
 
-//*****************//All prompt() returns text strings!!!
+//All prompt() returns text strings!!!
 //THIS IS CALCULATIONS , PROMPTS , AND CASTING
 var shoesCurrent = prompt ("How many shoes do you currently own?");
 var spentOnShoesThisMonth = prompt ("How much do you spend on a pair of shoes?");
@@ -26,9 +25,6 @@ alert("You spend a average of $" + averageSpentYearly + " on pair of shoes");
 //Add This.. Make sure you use an alert
 //Cast Numbers as Strings
 //String()
-
-
-
 var areaCode = 229;
 var prefix = 254;
 var lineNumber = 1326;
@@ -37,21 +33,20 @@ var phoneNumber = String(areaCode) + String(prefix) + String(lineNumber);
 console.log(phoneNumber);
 alert("For more information on sneakers contact " + phoneNumber);
 
-//__________________________________________________
+var jumpShots = [500, 650, 545, 703, 342];
 
+//How many jump shots did I make this week in my new shoes?
+var totalJumpShots = jumpShots[0] + jumpShots[1] + jumpShots[2] + jumpShots[3] + jumpShots[4] + jumpShots[5];
+console.log("I shot jumpers in a pair of my new shoes. I made" + totaljumpShots + " jump shots in a week.");
 
-var shoeBrand = ["Nike", "Jordan", "Addidas"];
-
-//How many oranges did we pick
-var totalOranges = orangeBins [0] + orangeBins [1] + orangeBins [2];
-console.log(totalOranges + " Oranges were picked in three days.");
-
-//Average number of oranges picked
-var averageOranges = totalOranges / 3;
-//Instead of 3 put = totalOranges / orangeBins.length;
+//Average number of jump shots made
+var averageJumpShots = totalJumpShots / jumpShots.length;
+//Instead of 5 put = total / jumpShots.length;
 
 //length property of arrays
-console.log(orangeBins.length);
-console.log("The average number of oranges picked is " + averageOranges);
+console.log(jumpShots.length);
+console.log("The average number of jump shots I took is " + averageJumpShots);
 
 //use multi line comment and tell what calculations you made
+
+
