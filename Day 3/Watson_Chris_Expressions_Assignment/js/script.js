@@ -5,14 +5,42 @@
  Day 3 Expressions Homework
  */
 
-alert("Testing the js file");
+//alert("Testing the js file");
 
 //In order to tell the computer what to do you ask for input using
 // prompt("");
-prompt("Name your favorite Sports team.");
+//prompt("Name your favorite Sports team.");
+
+//_______________________________________________________________________
+
+//*****************//All prompt() returns text strings!!!
+//THIS IS CALCULATIONS , PROMPTS , AND CASTING
+var shoesCurrent = prompt ("How many shoes do you currently own?");
+var spentOnShoesThisMonth = prompt ("How much do you spend on a pair of shoes?");
+var spentOnShoesThisYear = prompt ("How much do you spend on shoes in a year");
+var monthsInAYear = 12;
+var averageSpentYearly = Number(spentOnShoesThisYear) / Number(monthsInAYear);
+console.log(averageSpentYearly);
+alert("You spend a average of $" + averageSpentYearly + " on pair of shoes");
+
+//Add This.. Make sure you use an alert
+//Cast Numbers as Strings
+//String()
 
 
-var orangeBins = [30, 500, 10002];
+
+var areaCode = 229;
+var prefix = 254;
+var lineNumber = 1326;
+
+var phoneNumber = String(areaCode) + String(prefix) + String(lineNumber);
+console.log(phoneNumber);
+alert("For more information on sneakers contact " + phoneNumber);
+
+//__________________________________________________
+
+
+var shoeBrand = ["Nike", "Jordan", "Addidas"];
 
 //How many oranges did we pick
 var totalOranges = orangeBins [0] + orangeBins [1] + orangeBins [2];
@@ -26,39 +54,4 @@ var averageOranges = totalOranges / 3;
 console.log(orangeBins.length);
 console.log("The average number of oranges picked is " + averageOranges);
 
-//_______________________________________________________________
-
-//Calculate the area of a rectangle
-
-//**prompt the user for width
-var width = prompt("Lets calculate the area of a rectangle. Please enter a width:");
-
-//**Prompt the user for a height
-var height = prompt("Please enter a height:");
-
-//**Calculate the area using the user input
-var area = width * height;
-console.log("The area of your rectangle is " + area);
-alert("The area of your rectangle is " + area);
-
-
-//_______________________________________________________________________
-
-//*****************//All prompt() returns text strings!!!
-//THIS IS CALCULATIONS , PROMPTS , AND CASTING
-var videoGamesCurrent = prompt ("How many video games do you currently own?");
-var gamesBought = prompt ("How many games did you buy today");
-var totalGames = Number(videoGamesCurrent) + Number(gamesBought);
-console.log(totalGames);
-
-//*****Add This.. Make sure you use an alert
-//If need help contact me
-//Cast NUmbers as Strings
-//String()
-var areaCode = 407;
-var prefix = 555;
-var lineNumber = 1234;
-
-var phoneNumber = String(areaCode) + String(prefix) + String(lineNumber);
-console.log(phoneNumber);
-alert(phoneNumber);
+//use multi line comment and tell what calculations you made
