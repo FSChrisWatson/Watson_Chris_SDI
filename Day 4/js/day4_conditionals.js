@@ -22,4 +22,18 @@ if(oldEnough){
     //THis code will run if the if oldEnough evaluates to a boolean of false
     console.log("Sorry you are to young to ride");
 }
- 
+
+ //Relational Expressions - Operators
+ //Test the kids height to see if he can ride the ride
+
+ var kidHeight = 50;
+
+ //if the child is 48 or taller they can ride the ride
+ if(kidHeight >=48){
+     //code inside of here will run if child is 48 or taller
+     console.log("Congrats you are tall enough to ride the coaster");
+
+ } else {
+     //
+
+ }
