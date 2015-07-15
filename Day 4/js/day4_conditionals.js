@@ -42,3 +42,56 @@ if(oldEnough){
      console.log("Sorry you are too short to ride the roller coaster!");
 
  }
+
+
+///NEED FOR LAST QUESTION!!!!!!
+// /Check the price of an item. Scooter
+ var scooterCost = 1000;
+ var budget = 800;
+ var payCheck = 500;
+
+ //if the price of the scooter is less than our buget than we can buy it.
+ //And if our paycheck is over 400;
+
+ if(scooterCost < budget && payCheck>400){
+     console.log("Both the scooter is in budget and our paycheck is high enough");
+
+ } else {
+     console.log("Sorry you can buy the scooter!");
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
