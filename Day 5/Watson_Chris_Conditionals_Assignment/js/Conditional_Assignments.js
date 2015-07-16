@@ -6,7 +6,7 @@ Section 00
 Day 5 Conditionals Assignment
  */
 
-alert("Testing to see if this works!");
+//alert("Testing to see if this works!");
 
  //If I have the wedding
  //Then  “ Financially I will be broke && It’s until death do us part”
@@ -28,6 +28,31 @@ console.log(totalWeddingCost);
 
  var monthsNeededToSave = totalWeddingCost / monthlySalary;
  console.log("It will take " + monthsNeededToSave + " months to save for my Marriage.");
+
+
+//--------------------------------
+//prompt the user for ring price
+
+
+var ringPrice = prompt("What is the budget for your spouses Engagement ring?");
+ console.log(ringPrice);
+
+ //prompt the user for ceremony price
+ var ceremony = prompt("How much is your Wedding Ceremony going to cost?");
+ console.log(ceremony);
+
+ var totalNeededForWedding = Number(ringPrice) + Number(ceremony);
+ alert("The total cost of your wedding is $" + totalNeededForWedding);
+ console.log("The total cost of your wedding is $" + totalNeededForWedding);
+
+ //prompt the user for monthly income
+ var monthlyIncome = prompt("Please enter your total monthly income.");
+ console.log(monthlyIncome);
+alert("It will take you " + totalNeededForWedding / monthlyIncome + " months to save enough for Marriage! Good Luck!!")
+
+
+
+
 
 
 
