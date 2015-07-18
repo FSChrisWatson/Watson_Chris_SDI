@@ -63,4 +63,8 @@ alert("It will take you " + totalNeededForWedding / monthlyIncome + " months to 
  //Console.log(“”);
  //Else “Don’t show up and be single for the rest of my life”
 
-
+/*
+For my Marriage calculation I types in 1500 for ringPrice
+5000 for ceremonyCost and 1200 for monthly income. It estimated that I needed 14
+months to save up enough money for marriage.
+ */
