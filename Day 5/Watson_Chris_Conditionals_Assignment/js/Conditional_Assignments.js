@@ -13,58 +13,66 @@ Day 5 Conditionals Assignment
  //Console.log(“”);
  //Else if “If I say No she might kill me”
 
- var ringCost = 5500;
-
- var ceremonyCost = 12000;
-
- var honeyMoonCost = 3500;
-
- var monthlySalary = 1500;
-
- //Find out how long it will take to save up for Marriage
-
- var totalWeddingCost = ringCost + ceremonyCost + honeyMoonCost;
-console.log(totalWeddingCost);
-
- var monthsNeededToSave = totalWeddingCost / monthlySalary;
- console.log("It will take " + monthsNeededToSave + " months to save for my Marriage.");
-
-
 //--------------------------------
+
 //prompt the user for ring price
+ var ringPrice = prompt("What is the cost for your spouses Engagement ring?");
 
-
-var ringPrice = prompt("What is the budget for your spouses Engagement ring?");
- console.log(ringPrice);
-
- //prompt the user for ceremony price
+//prompt the user for ceremony price
  var ceremony = prompt("How much is your Wedding Ceremony going to cost?");
- console.log(ceremony);
 
  var totalNeededForWedding = Number(ringPrice) + Number(ceremony);
- alert("The total cost of your wedding is $" + totalNeededForWedding);
  console.log("The total cost of your wedding is $" + totalNeededForWedding);
 
  //prompt the user for monthly income
  var monthlyIncome = prompt("Please enter your total monthly income.");
- console.log(monthlyIncome);
-alert("It will take you " + totalNeededForWedding / monthlyIncome + " months to save enough for Marriage! Good Luck!!")
+ console.log("It will take you " + totalNeededForWedding / monthlyIncome + " months to save enough for Marriage! Good Luck!!");
 
 
+ //Lets see if we have enough for the bachelor party
+ var bachelorPartyCost = 5800;
 
+var loan = prompt("How much money will Your bank Loan you?");
+ while(isNaN(loan) || loan===""){
+     //reprompt using the same variable
+     loan=prompt("Please only use numbers and don't leave blank. \nPlease type in a number.")
+ }
+ friendsChipIn = prompt("How much money can your friends chip in?");
 
+ if(loan + friendsChipIn >= bachelorPartyCost){
+     console.log("You can now throw a Bachelor Party! Time to turn up!")
+ } else {
+     console.log("No Bachelor Party for you. You don't have enough money");
 
+ }
 
+var question = "Yes";
 
- //If I have the wedding
- //Then  “ Financially I will be broke && It’s until death do us part”
- //Console.log(“”);
- //Else if “If I say No she might kill me”
- //Console.log(“”);
- //Else “Don’t show up and be single for the rest of my life”
+ var toTurnedUp = prompt("Did you drink alcohol at the Bachelors Party? Please choose Yes or No");
+toManyDrinks = prompt("I think you drank to much alcohol. \n How many Drinks did you have?");
+
+ if(toTurnedUp === question && toManyDrinks >=5) {
+     console.log("That's it you have had enough. Don't ruin your marriage before it starts!");
+ } else if (toTurnedUp === question && toManyDrinks <=4){
+     console.log("Don't drink too much you have a wedding tomorrow.");
+ } else {
+     console.log("Last night as a free man. Live a little but just be careful.");
+ }
+
+//Decide if you drive or take a cab/uber home
+var breathalizer =  prompt("Lets take a breathalizer test. What is your count?");
+ var rideHome;
+
+ rideHome = (breathalizer<.5) ? " drive Yourself home.": " call Uber.";
+ console.log("You should" + rideHome);
 
 /*
-For my Marriage calculation I types in 1500 for ringPrice
-5000 for ceremonyCost and 1200 for monthly income. It estimated that I needed 14
+For my Marriage calculation I types in 1500 for engagement ring price and
+5000 for ceremonyCost and 900 for monthly income. It estimated that I needed 7.2
 months to save up enough money for marriage.
+
+My bank loan was 3000 and my friends chipped in 1000 so therefore I was able to throw a bachelor party
+I did drink alcohol
+I only had 4 beers so the console read - Don't drink to much you have a wedding tomorrow.
+My alcohol count was .7 so I had to call uber to take me home.
  */
