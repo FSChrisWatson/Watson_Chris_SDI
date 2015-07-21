@@ -32,3 +32,26 @@ DAY 7 ZOMBIES
      console.log("On day number " + i+ " there will be " + numZombies + " zombies!")
  }
      */
+ //---------------------------------------
+
+
+ //The CDC wants to know how many days it will take for there to be 1 million Zombies
+
+ //variable to count the number of days
+ var numDays = 1;
+
+ while(numZombies<=1000000){
+
+     //How many ppl get infected everyday
+  var infectedPeople = numZombies * numBites;
+
+  //How many zombies will we have at the end of the day?
+  numZombies+=infectedPeople;
+
+     console.log("On day number " + numDays+ " there will be " + numZombies + " zombies!")
+
+     //Increment the day
+     numDays++;
+
+  }
+ console.log("It will take " + (numDays-1) + " to make a million zombies!");
