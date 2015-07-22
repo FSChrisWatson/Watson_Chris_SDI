@@ -19,10 +19,17 @@ Class
 
  for(var i=0; i<scoobyGang.length; i++){
      console.log("You solved the case " + scoobyGang[i]);
+     //Call out scooby and shaggy to get scooby snack
+     if(scoobyGang[i]==="Scooby" || scoobyGang[i]==="Shaggy") {
+         console.log("Good Job " + scoobyGang[i] + ". You get a scooby snack!");
+     } else{
+         console.log("You solved the case " + scoobyGang[i]);
+     }
  }
 
  //Create an array of films
  var bills=[50,10,5,20,10];
+
 
  //Create a variable and define it for total
  var total=0;
