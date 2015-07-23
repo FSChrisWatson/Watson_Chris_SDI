@@ -65,7 +65,7 @@ dogYears(4);
  //Prompt the user for there dogs age
  var yourDogAge=prompt("Lets figure out how old your dog is in dog years.\nPlease enter your dogs human age.");
  //validate and cast if needed
- 
+
  dogYears(yourDogAge);
 
 
