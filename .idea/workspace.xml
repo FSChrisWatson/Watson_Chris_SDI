@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d487acfb-2355-4c82-bff9-aa1af09b4a88" name="Default" comment="" />
+    <list default="true" id="d487acfb-2355-4c82-bff9-aa1af09b4a88" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 8/js/Day8Arguments&amp;Parameters.js" afterPath="$PROJECT_DIR$/Day 8/js/Day8Arguments&amp;Parameters.js" />
+    </list>
     <ignored path="Watson_Chris_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day8Argue&amp;Param.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day8Argue&amp;Param.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day 8/Day8Argue&amp;Param.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.129683" vertical-offset="0" max-vertical-offset="694">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day8Arguments&amp;Parameters.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Day8Arguments&amp;Parameters.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Arguments&amp;Parameters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.31337047" vertical-offset="0" max-vertical-offset="718">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -52,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day 5/Day5 conditional.html" />
         <option value="$PROJECT_DIR$/Day 5/js/Day 5 and conditional.js" />
         <option value="$PROJECT_DIR$/Day 5/Day5Logic.html" />
         <option value="$PROJECT_DIR$/Day 5/Day5ternary.html" />
@@ -103,6 +104,7 @@
         <option value="$PROJECT_DIR$/Day 8/Day8FunctionScope.html" />
         <option value="$PROJECT_DIR$/Day 8/js/Day8_FunctionScope.js" />
         <option value="$PROJECT_DIR$/Day 8/Day8Argue&amp;Param.html" />
+        <option value="$PROJECT_DIR$/Day 8/js/Day8Arguments&amp;Parameters.js" />
       </list>
     </option>
   </component>
@@ -111,7 +113,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="909" />
+    <option name="width" value="943" />
     <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -257,7 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="909" height="815" extended-state="0" />
+    <frame x="0" y="23" width="943" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -265,7 +267,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2310231" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.056203604" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -468,6 +470,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0625" vertical-offset="0" max-vertical-offset="2775">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -652,18 +655,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Arguments&amp;Parameters.js">
+    <entry file="file://$PROJECT_DIR$/Day 8/Day8Argue&amp;Param.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="718">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 8/Day8Argue&amp;Param.html">
+    <entry file="file://$PROJECT_DIR$/Day 8/js/Day8Arguments&amp;Parameters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.129683" vertical-offset="0" max-vertical-offset="694">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.31337047" vertical-offset="0" max-vertical-offset="718">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
