@@ -18,8 +18,8 @@ Class
  function calcArea(){
 
      //Create variables
-     var width = 10;
-     var height = 20;
+     //width = 10;
+     //height = 20;
 
      //calculate the area
      var area = width*height;
@@ -28,4 +28,9 @@ Class
      console.log("The area of a rectangle with a width of "+width+" and a height of "+height+" is "+area+".");
  }
  //Now call the function for it to run in the console
+ calcArea();
+ //Change the variables
+ width=50;
+ height=10;
+
  calcArea();
