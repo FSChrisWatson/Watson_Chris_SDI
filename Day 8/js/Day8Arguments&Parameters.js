@@ -68,6 +68,48 @@ dogYears(4);
 
  dogYears(yourDogAge);
 
+_____________________________________
+
+ //Calculate how many bee stings are needed to kill an animal in a function
+
+ function victimsweight(perBeeSting){
+     //Input a animals weight and multiply it by bee stings
+     //victimsweight*
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
