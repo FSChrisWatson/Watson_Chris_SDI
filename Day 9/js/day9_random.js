@@ -46,12 +46,21 @@ Random Number Generator
  //test to check value of max and min
  console.log("The min value is "+min+".\nThe max value is " +max+".");
 
- //Get 15 numbers to print to the console.log
+ //Get 15 numbers between 10&20 to print the console.log
+ var total =0;
+ //Create a blank array to hold the values
+ var randomArray =[];
  for(var i= 0; i<15;i++){
 
-     var tempNum=randomizer(min, max);
+     var tempNum=randomizer(10, 20);
+     randomArray[i]=tempNum;
      console.log(tempNum);
+     total +=tempNum;
  }
+
+ //console.log the total
+ console.log(randomArray);
+ console.log("The total of 15 random numbers is "+ total);
 
  //Function call the randomizer function
  var results1 = randomizer(min, max);
@@ -60,7 +69,7 @@ console.log("Your random number is "+results1);
  function randomizer(mn, mx){
      //Generate our random number
      var randomNum=Math.round(Math.random()*(mx-mn)+mn);
-     console.log(randomNum);
+     //console.log(randomNum);
      //return the random number into our main code
      return randomNum;
  }
