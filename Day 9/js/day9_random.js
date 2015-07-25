@@ -24,3 +24,21 @@ Random Number Generator
 
  //Number cast or parse int
  min=Number(min);
+
+ //Variable for max
+ var max = prompt(("What is the max value?"));
+ //validate the prompt
+ while((isNaN(max) || max==="") || max<=min){
+     if(isNaN(max)){
+         max=prompt("Please only type numbers.\nWhat is the maximum value?");
+     }else if (max<=min && max!=""){
+         max=prompt("Please make sure the max value is greater than the min value of "+min+"\nWhat is the max value?");
+     }
+
+     else{
+         max=prompt("Please do not leave blank.\nWhat is the maximum value?");
+     }
+ }
+
+ //number cast max
+ max=Number(max);
