@@ -42,3 +42,61 @@ Random Number Generator
 
  //number cast max
  max=Number(max);
+
+ //test to check value of max and min
+ console.log("The min value is "+min+".\nThe max value is " +max+".");
+
+ //Get 15 numbers to print to the console.log
+ for(var i= 0; i<15;i++){
+
+     var tempNum=randomizer(min, max);
+     console.log(tempNum);
+ }
+
+ //Function call the randomizer function
+ var results1 = randomizer(min, max);
+console.log("Your random number is "+results1);
+ //create the random function
+ function randomizer(mn, mx){
+     //Generate our random number
+     var randomNum=Math.round(Math.random()*(mx-mn)+mn);
+     console.log(randomNum);
+     //return the random number into our main code
+     return randomNum;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
