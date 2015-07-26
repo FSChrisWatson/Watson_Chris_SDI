@@ -59,7 +59,7 @@ Multiple
  //Function call to triangle area
  var triAreaTotal = triArea(base, height);
  console.log(triAreaTotal);
- 
+
 
 
 
