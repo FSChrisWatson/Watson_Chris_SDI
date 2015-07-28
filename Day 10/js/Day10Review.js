@@ -21,20 +21,54 @@ Review
      //Re-prompt
      pizzaRadius=prompt("Please do not leave blank and only use numbers.\nPlease enter your pizza radius.");
  }
+ //Cast to numbers
+ pizzaRadius =Number(pizzaRadius);
 
  var pizzaCost =prompt("How much does your pizza cost in total?");
  //validate
  while(isNaN(pizzaCost)|| pizzaCost==="") {
      pizzaCost = prompt("Please do not leave blank and only use numbers.\nPlease enter your pizza cost.");
  }
+ //Cast to numbers
+ pizzaCost =Number(pizzaCost);
 
  var pizzaSlices=prompt("How many slices are in your pizza?");
  while(isNaN(pizzaSlices)|| pizzaSlices==="") {
      pizzaSlices = prompt("Please do not leave blank and only use numbers.\nPlease enter your pizza slices.");
  }
+ //Cast to numbers
+ pizzaSlices =Number(pizzaSlices);
 
 
+//Create a Function that launches all of the other functions
+ function masterPizzaFunc(rad,cost,slices){
+     var area = pizzaArea(rad);
 
+     //Function call the sq in function
+     var squareInCost = pizzaSqInCost(cost,area);
+
+     //Function call to slices function
+     var slicesPrice = pricePerSlice(slices,cost);
+
+     return [squareInCost,slicesPrice];
+
+ }
+
+ //function call to the master function
+ var results = masterPizzaFunc(pizzaRadius,pizzaCost,pizzaSlices);
+
+//NEW AFTER we wrote everything he went back up to do this
+ //Function Call for area function
+ var area = pizzaArea(pizzaRadius);
+
+ //Function call the sq in function
+ var squareInCost = pizzaSqInCost(pizzaCost,area);
+
+ //Function call to slices function
+ var slicesPrice = pricePerSlice(pizzaSlices,pizzaCost);
+
+ //print out results
+ console.log("Your pizza cost $"+results[0]+" per sq inch of pizza or $"+results[1]+" per slice.");
 
  //Create a function to calc the area of pizza
  function pizzaArea(r){
