@@ -16,7 +16,7 @@ Class
    var totalShots = f+m+t;
      return totalShots;
  };
- 
+
  //Ask the user will they like to calculate the number of shots Kobe took
  var userPrompt=prompt("Would you like to calculate the shots Kobe took?\n Please answer yes or no");
  //validate
@@ -27,4 +27,5 @@ Class
  //Function call for Anonymous Functions MUST BE AFTER THE DEFINITION!!
  //Function call to total shots
  var resultsTotal = kobeShots(freeThrows,midRange,threes);
- console.log(resultsTotal);
+ console.log("Kobe took "+f+"free throws,"+m+"mid range shots, and"+t+"threes. He took a total of "+resultsTotal+"shots all together");
+alert("Kobe took "+f+"free throws,"+m+"mid range shots, and"+t+"threes.\n He took a total of "+resultsTotal+"shots all together");
