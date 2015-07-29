@@ -2,8 +2,8 @@
  /*
 Christopher Watson 
 Section 00
-Date
-Class
+7/25/15
+Functions Assignment
  */
 
 //alert("Testing to see if this works!");
@@ -36,3 +36,30 @@ Class
  var resultsTotal = kobeShots(freeThrows,midRange,threePointers);
  console.log("Kobe took a total of "+resultsTotal+" shots all together!");
  alert("Kobe took a total of "+resultsTotal+" shots all together!");
+
+ /*
+ I typed in 756 free throws, 385 mid range, and 146 three pointers and my calculator gave me 1287 total shots made.
+  */
+
+ //___________________________________________________________________________________________
+
+ var mass =parseInt(prompt("Lets find the density of a material.\nPlease enter a mass."));
+ while((isNaN(mass) || mass==="") || mass<=volume){
+     if(isNaN(mass)){
+         mass=prompt("Please only type numbers.\nPlease enter a mass");
+     }else if (mass<=volume && mass!=""){
+         mass=prompt("Please make sure the mass is a greater value than"+volume+"\nWhat is the value?")
+     }else {
+         mass = prompt("Please do not leave blank.\nWhat is the mass value?");
+     }
+ };
+ var volume =parseInt(prompt("Please enter a volume."));
+ while(isNaN(volume) || volume===""){
+     volume=prompt("Please only type numbers.\nPlease enter a volume.")
+ };
+
+ function calcDensity(m,v){
+     var density = m/v;
+     console.log("The mass of a material is "+m+" and the volume of a material is "+v+".The total density of a material is "+density+".");
+ }
+ calcDensity(mass,volume);
