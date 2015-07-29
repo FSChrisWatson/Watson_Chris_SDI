@@ -22,9 +22,6 @@ Function Scope
  var changeMe = 7;
  console.log("Starting the value of changeMe is "+changeMe);
 
-
-
-
  //Create a function that calculates the perimeter of a rectangle
  function calPeri(){
 
