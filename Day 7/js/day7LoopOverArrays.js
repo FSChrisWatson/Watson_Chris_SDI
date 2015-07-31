@@ -9,7 +9,7 @@ Class
 //alert("Testing to see if this works!");
 
  //Create an Array of Scooby Doo Characters
- var scoobyGang = ["Scooby", "Shaggy", "Velma", "Daphne"];
+ var scoobyGang = ["Scooby", "Shaggy", "Velma", "Daphne", "Fred1"];
 
  //Push an array... Adds another person to the array
  scoobyGang.push("Fred");
@@ -23,7 +23,7 @@ Class
      if(scoobyGang[i]==="Scooby" || scoobyGang[i]==="Shaggy") {
          console.log("Good Job " + scoobyGang[i] + ". You get a scooby snack!");
      } else{
-         console.log("You solved the case " + scoobyGang[i]);
+         console.log("You really solved the case " + scoobyGang[i]+ "Congratulations!");
      }
  }
 

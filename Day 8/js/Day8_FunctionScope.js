@@ -13,13 +13,20 @@ Function Scope
 
  //Create a variable called width in our Main Code
  //This variable is scoped outside of the function, which means scoped to the main code
- var width = 5;
+ var width = prompt("Please enter a width.");
+ while(isNaN(width) || width===""){
+     width=prompt("Please only type numbers.\nPlease enter a width?")
+ };
  //console log it
  console.log("Starting width is "+width );
 
  //Create a variable called change me
  //THis will be scoped to the main code
  var changeMe = 7;
+ var changeMe = prompt("Enter a number.");
+ while(isNaN(changeMe) || changeMe===""){
+     changeMe=prompt("Please only type numbers.\nEnter a number?")
+ };
  console.log("Starting the value of changeMe is "+changeMe);
 
  //Create a function that calculates the perimeter of a rectangle

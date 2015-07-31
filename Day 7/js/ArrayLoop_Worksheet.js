@@ -45,3 +45,4 @@ var interceptions=[numOfInterceptionsRegularSeason,numOFInterceptionsPlayoffs,nu
  }
  console.log("The total number of interceptions is "+total);
  alert("The total number of interceptions is "+ total);
+

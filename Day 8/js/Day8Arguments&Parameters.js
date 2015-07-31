@@ -12,8 +12,15 @@ Class
  //Parameters go in the definition and these catch the arguments - "Generic Containers"
 
  //Create variables for width and height
- var width = 10;
- var height = 20;
+ var width = prompt("Please enter a width?");
+ while(isNaN(width) || width===""){
+     width=prompt("Please only type numbers.\nEnter a width?")
+ };
+ var height = prompt("Lets find how much you make. How much is your paycheck?");
+ while(isNaN(height) || height===""){
+     height=prompt("Please only type numbers.\nPlease enter a height?")
+ };
+
 
  //W and H below signifies parameters
  function calcArea(w,h){
@@ -37,9 +44,14 @@ Class
 
  //Now ask the user
  var userWidth=prompt("Lets calculate the area of a rectangle.\nPlease enter a width.");
-
+ while(isNaN(userWidth) || userWidth===""){
+     userWidth=prompt("Please only type numbers.\nEnter a width?")
+ };
  //validate & number cast the input
  var userHeight=prompt("Please enter a height.");
+ while(isNaN(userHeight) || userHeight===""){
+     userHeight=prompt("Please only type numbers.\nPlease enter a height?")
+ };
 
  //How would I get a area
  calcArea(userWidth,userHeight);

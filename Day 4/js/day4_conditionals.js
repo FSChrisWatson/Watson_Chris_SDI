@@ -26,7 +26,10 @@ if(oldEnough){
  //Relational Expressions - Operators
  //Test the kids height to see if he can ride the ride
 
- var kidHeight = prompt("How tall are you in inches?");
+ var kidHeight = prompt("Lets find out your height. How tall are you in inches?");
+ while(isNaN(kidHeight) || kidHeight===""){
+     kidHeight=prompt("Please only type numbers.\nHow tall are you in inches?")
+ };
  var sneakerLift = 2;
 
  //if the child is 48 or taller they can ride the ride
@@ -46,9 +49,19 @@ if(oldEnough){
 
 ///NEED FOR LAST QUESTION!!!!!!
 // /Check the price of an item. Scooter
- var scooterCost = 1000;
- var budget = 800;
- var payCheck = 500;
+ var scooterCost = prompt("Lets find out the price of a scooter. How much does a scooter cost?");
+ while(isNaN(scooterCost) || scooterCost===""){
+     scooterCost=prompt("Please only type numbers.\nHow much does a scooter cost?")
+ };
+
+ var budget = prompt("Lets find out your budget. What is your budget for the scooter?");
+ while(isNaN(budget) || budget===""){
+     budget=prompt("Please only type numbers.\nWhat is your budget?")
+ };
+ var payCheck = prompt("Lets find how much you make. How much is your paycheck?");
+ while(isNaN(payCheck) || payCheck===""){
+     payCheck=prompt("Please only type numbers.\nHow much is your paycheck?")
+ };
 
  //if the price of the scooter is less than our buget than we can buy it.
  //And if our paycheck is over 400;
@@ -69,6 +82,11 @@ if(oldEnough){
  //Normal if else statement
 
  var GPA= 3.8;
+ var gpa = prompt("Lets find how your GPA. What is your current GPA?");
+ while(isNaN(gpa) || gpa===""){
+     gpa=prompt("Please only type numbers.\nWhat is your GPA?")
+ };
+
 
  if(GPA>2.0){
 

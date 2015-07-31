@@ -36,4 +36,3 @@ Validating Prompts for loops
      //reprompt the user using the same variable
      color=prompt("Please only type in red or black. \n Choose your color.")
  }
-

@@ -9,6 +9,11 @@ Class
 //alert("Testing to see if this works!");
 //Basic for loop
  //for(initialized counter; condition; increment of change)
+ var payCheck = prompt("Lets find how much you make. How much is your paycheck?");
+ while(isNaN(payCheck) || payCheck===""){
+     payCheck=prompt("Please only type numbers.\nHow much is your paycheck?")
+ };
+
 
  for(var i =10; i>-0; i--){
      console.log("The value of i is " + i);

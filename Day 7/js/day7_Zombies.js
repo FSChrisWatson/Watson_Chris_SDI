@@ -4,6 +4,7 @@ Christopher Watson
 Section 00
 7/21/15
 DAY 7 ZOMBIES
+SDI
  */
 
 //alert("Testing to see if this works!");
@@ -14,13 +15,13 @@ DAY 7 ZOMBIES
 
  //Create the givens
  //How many Zombies do we have
- var numZombies = 1;
+ var numZombies = 2;
 
  //How many bites can a zombie make each day
- var numBites = 4;
+ var numBites = 3;
 
  //What is our timeline
- var days = 8;
+ var days = 45;
 
  /*for(var i=1; i<=days; i++){
      //How many ppl get infected everyday
@@ -38,7 +39,7 @@ DAY 7 ZOMBIES
  //The CDC wants to know how many days it will take for there to be 1 million Zombies
 
  //variable to count the number of days
- var numDays = 1;
+ var numDays = 23;
 
  while(numZombies<=1000000){
 
