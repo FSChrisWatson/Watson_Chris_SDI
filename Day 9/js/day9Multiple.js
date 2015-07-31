@@ -42,7 +42,7 @@ Multiple
 //_________________________
 
 //Ask the user will they like to calculate the area of a triangle
- var userPrompt=prompt("Would you like to calculate the area of a triangle?\nPlease answer yes or no");
+ var userPrompt=prompt("Would you like to calculate the circumference of a circle?\nPlease answer yes or no");
 //validate
  while(userPrompt.toLowerCase()!="yes" && userPrompt.toLowerCase()!="no"){
      userPrompt=prompt("Please only answer yes or no.\nWould you like to calculate the area of  a triangle?");

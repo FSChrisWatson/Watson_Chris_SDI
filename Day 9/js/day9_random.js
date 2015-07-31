@@ -11,6 +11,32 @@ Random Number Generator
  //Create a function that will take in a user prompted
  //...max and min and return a random number between them.
 
+
+
+
+
+ var discount =prompt("Today you get a discount on the item.\nWhat percent do you think you discount should be?");
+ while(isNaN(discount)|| discount===""){
+     //Re-prompt
+     discount=prompt("Please do not leave blank and only use numbers.\nPlease enter a number.");
+ }
+ if (discount>=0 && discount<=100){
+     discount=prompt()
+ }
+
+
+
+
+
+
+
+
+ while(isNaN(discount) || discount===""){
+     if(isNaN(discount)){
+         discount=prompt("Please only type numbers.\nWhat percent do you think the discount should be?")
+     }
+ }
+
  //Create a variable for the min value
  var min = prompt("We are going to find a random number between 2 values.\nWhat is the min value?");
  //validate that prompt
